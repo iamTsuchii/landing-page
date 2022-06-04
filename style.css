@@ -49,6 +49,9 @@ li {
   height: 300px;
 }
 
+.header-text {
+}
+
 button {
   background-color: #3882f6;
   padding: 5px 15px;
@@ -68,3 +71,40 @@ h1 {
   font-weight: bolder;
   color: #f9faf8;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.qoute {
+  background-color: #e5e7eb;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thor-qoute {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 250px;
+  flex: 1;
+  padding: 10px 50px;
+  border: 2px solid black;
+}
+
