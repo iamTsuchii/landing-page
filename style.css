@@ -12,6 +12,7 @@ img {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 li {
@@ -24,14 +25,14 @@ li {
 
 .header {
   display: flex;
-  justify-content: space-around;
-  padding: 5px;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
 .left-links, .right-links {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
 }
 
 .header-contents {
@@ -75,13 +76,16 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-  gap: 52px;
+  align-items: center;
+  gap: 47px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: bolder;
-  margin-bottom: 32px;
+  margin: 40px 0px;
   text-align: center;
 }
 
@@ -89,22 +93,108 @@ h1 {
   max-width: 200px;
 }
 
-.qoute {
-  background-color: #e5e7eb;
-  height: 400px;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .thor-qoute {
   font-size: 36px;
   font-weight: lighter;
   color: #1f2937;
-  width: auto;
   height: 200px;
-  padding: 10px 50px;
-  border: 2px solid black;
+  text-align: center;
+  width:auto;
+  padding: 0px 50px;
 }
 
+/* 6/5/22 code start */
+
+img {
+  object-fit: cover;
+}
+
+.limev2 {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+/* start of thor qoute! */
+
+
+#container {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qoute {
+  height: 50%;
+  flex: 1;
+  padding: 0px 20px;
+  align-self: center;
+}
+
+.thor-qoute {
+}
+
+.thor {
+  text-align: right;
+  width: auto;
+  padding: 0px 50px;
+}
+
+/* end of thor qoute! */
+
+/* start of modal css */
+
+.modal {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #3882f6;
+  height: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+
+}
+
+span {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.left-modal, .right-modal {
+  padding: 30px 30px;
+  margin: 10px;
+}
+
+.left-modal {
+  width: 70%;
+}
+
+.right-modal {
+  width: 30%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 40px;
+  padding: 5px;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
